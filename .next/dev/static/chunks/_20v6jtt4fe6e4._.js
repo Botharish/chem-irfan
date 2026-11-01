@@ -104,7 +104,10 @@ const examples = [
         'NC(=O)N'
     ]
 ];
-const chemistryApiUrl = (__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_CHEMSPHERE_API || 'http://localhost:8000').replace(/\/$/, '');
+const configuredChemistryApiUrl = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_CHEMSPHERE_API?.trim();
+const configuredLocalApi = Boolean(configuredChemistryApiUrl && /localhost|127\.0\.0\.1|\[::1\]/i.test(configuredChemistryApiUrl));
+const chemistryApiUrl = (("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : configuredChemistryApiUrl || (("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : 'http://localhost:8000')).replace(/\/$/, '');
+const chemistryApiLabel = chemistryApiUrl || 'the deployed chemistry API';
 const ethanolFallback = {
     formula: 'C2H6O',
     canonical_smiles: 'CCO',
@@ -321,7 +324,7 @@ function InteractiveMolecule({ data, zoomLevel, rotation, onZoomChange, onRotati
         onWheel: handleWheel
     }, void 0, false, {
         fileName: "[project]/app/MolecularStudio.tsx",
-        lineNumber: 207,
+        lineNumber: 214,
         columnNumber: 5
     }, this);
 }
@@ -357,7 +360,7 @@ function MolecularStudio() {
             try {
                 result = JSON.parse(responseText);
             } catch  {
-                throw new Error(response.status === 404 ? `The chemistry API is not running at ${chemistryApiUrl}. Start the Python backend, then try again.` : `The chemistry API returned an unexpected response (${response.status}).`);
+                throw new Error(response.status === 404 ? `The chemistry API is not available at ${chemistryApiLabel}. Check the deployed API, then try again.` : `The chemistry API returned an unexpected response (${response.status}).`);
             }
             if (!response.ok) throw new Error(result.detail || 'Invalid SMILES');
             if (!result?.molfile || !Array.isArray(result?.atoms)) throw new Error('The chemistry API returned incomplete structure data.');
@@ -368,7 +371,7 @@ function MolecularStudio() {
                 setError('');
             } else {
                 setData(null);
-                setError(caught instanceof TypeError ? `Could not connect to the chemistry API at ${chemistryApiUrl}. Start the Python backend, then try again.` : caught instanceof Error ? caught.message : 'Unable to draw structure');
+                setError(caught instanceof TypeError ? `Could not connect to ${chemistryApiLabel}. Check the deployed API, then try again.` : caught instanceof Error ? caught.message : 'Unable to draw structure');
             }
         } finally{
             setBusy(false);
@@ -397,27 +400,27 @@ function MolecularStudio() {
                                 children: "VISUALIZE / MOLECULAR STUDIO"
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 281,
+                                lineNumber: 288,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 children: "Draw your molecule in 3D."
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 282,
+                                lineNumber: 289,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Enter a SMILES string, validate it with RDKit, then rotate and zoom the structure."
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 283,
+                                lineNumber: 290,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 280,
+                        lineNumber: 287,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -425,13 +428,13 @@ function MolecularStudio() {
                         children: "RDKit + interactive 3D"
                     }, void 0, false, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 285,
+                        lineNumber: 292,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 279,
+                lineNumber: 286,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -448,13 +451,13 @@ function MolecularStudio() {
                                 "aria-label": "SMILES string"
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 291,
+                                lineNumber: 298,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 289,
+                        lineNumber: 296,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -473,18 +476,18 @@ function MolecularStudio() {
                                         children: name
                                     }, name, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 311,
+                                        lineNumber: 318,
                                         columnNumber: 39
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 301,
+                                lineNumber: 308,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 299,
+                        lineNumber: 306,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -497,26 +500,26 @@ function MolecularStudio() {
                                 size: 17
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 315,
+                                lineNumber: 322,
                                 columnNumber: 19
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                 size: 17
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 315,
+                                lineNumber: 322,
                                 columnNumber: 60
                             }, this),
                             busy ? 'Validating…' : 'Draw structure'
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 314,
+                        lineNumber: 321,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 288,
+                lineNumber: 295,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -535,7 +538,7 @@ function MolecularStudio() {
                                         onRotationChange: setRotation
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 324,
+                                        lineNumber: 331,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -549,14 +552,14 @@ function MolecularStudio() {
                                                         size: 13
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                                        lineNumber: 332,
+                                                        lineNumber: 339,
                                                         columnNumber: 47
                                                     }, this),
                                                     " Drag to rotate · scroll to zoom"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                                lineNumber: 332,
+                                                lineNumber: 339,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -570,12 +573,12 @@ function MolecularStudio() {
                                                             size: 15
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                                            lineNumber: 334,
+                                                            lineNumber: 341,
                                                             columnNumber: 88
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                                        lineNumber: 334,
+                                                        lineNumber: 341,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -586,12 +589,12 @@ function MolecularStudio() {
                                                             size: 15
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                                            lineNumber: 335,
+                                                            lineNumber: 342,
                                                             columnNumber: 89
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                                        lineNumber: 335,
+                                                        lineNumber: 342,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -602,12 +605,12 @@ function MolecularStudio() {
                                                             size: 15
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                                            lineNumber: 336,
+                                                            lineNumber: 343,
                                                             columnNumber: 85
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 343,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -618,30 +621,30 @@ function MolecularStudio() {
                                                             size: 15
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                                            lineNumber: 337,
+                                                            lineNumber: 344,
                                                             columnNumber: 87
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                                        lineNumber: 337,
+                                                        lineNumber: 344,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                                lineNumber: 333,
+                                                lineNumber: 340,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 331,
+                                        lineNumber: 338,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 323,
+                                lineNumber: 330,
                                 columnNumber: 13
                             }, this),
                             !data && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -651,27 +654,27 @@ function MolecularStudio() {
                                         className: "placeholder-orbit"
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 344,
+                                        lineNumber: 351,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                         children: "3D molecular canvas"
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 345,
+                                        lineNumber: 352,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Enter a SMILES string to begin"
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 346,
+                                        lineNumber: 353,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 343,
+                                lineNumber: 350,
                                 columnNumber: 13
                             }, this),
                             error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -679,13 +682,13 @@ function MolecularStudio() {
                                 children: error
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 349,
+                                lineNumber: 356,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 321,
+                        lineNumber: 328,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -699,14 +702,14 @@ function MolecularStudio() {
                                             size: 16
                                         }, void 0, false, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 355,
+                                            lineNumber: 362,
                                             columnNumber: 42
                                         }, this),
                                         " Validated by RDKit"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 355,
+                                    lineNumber: 362,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -714,14 +717,14 @@ function MolecularStudio() {
                                     children: "MOLECULAR INFORMATION"
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 356,
+                                    lineNumber: 363,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     children: data.formula
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 357,
+                                    lineNumber: 364,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dl", {
@@ -732,20 +735,20 @@ function MolecularStudio() {
                                                     children: "Canonical SMILES"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 359,
+                                                    lineNumber: 366,
                                                     columnNumber: 22
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
                                                     children: data.canonical_smiles
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 359,
+                                                    lineNumber: 366,
                                                     columnNumber: 47
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 359,
+                                            lineNumber: 366,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -754,7 +757,7 @@ function MolecularStudio() {
                                                     children: "Molar mass"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 360,
+                                                    lineNumber: 367,
                                                     columnNumber: 22
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
@@ -764,13 +767,13 @@ function MolecularStudio() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 360,
+                                                    lineNumber: 367,
                                                     columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 360,
+                                            lineNumber: 367,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -779,32 +782,32 @@ function MolecularStudio() {
                                                     children: "Atoms"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 361,
+                                                    lineNumber: 368,
                                                     columnNumber: 22
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
                                                     children: data.atoms.length
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 361,
+                                                    lineNumber: 368,
                                                     columnNumber: 36
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 361,
+                                            lineNumber: 368,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 358,
+                                    lineNumber: 365,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/MolecularStudio.tsx",
-                            lineNumber: 354,
+                            lineNumber: 361,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                             children: [
@@ -813,44 +816,44 @@ function MolecularStudio() {
                                     children: "READY TO EXPLORE"
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 366,
+                                    lineNumber: 373,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     children: "Structure details"
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 367,
+                                    lineNumber: 374,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "RDKit validates the input before drawing it."
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 368,
+                                    lineNumber: 375,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/MolecularStudio.tsx",
-                            lineNumber: 365,
+                            lineNumber: 372,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 352,
+                        lineNumber: 359,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 320,
+                lineNumber: 327,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/MolecularStudio.tsx",
-        lineNumber: 278,
+        lineNumber: 285,
         columnNumber: 5
     }, this);
 }
@@ -3618,7 +3621,7 @@ function AboutView() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "creator-credit",
-                children: "Website developed by Ezhil Mugan.AN"
+                children: "Website developed by R.Sai Harish ."
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,

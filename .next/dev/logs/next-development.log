@@ -1,14 +1,12 @@
-{"timestamp":"00:00:02.175","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:02:17.874","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:03:12.765","source":"Server","level":"LOG","message":"✓ Compiled in 187ms"}
-{"timestamp":"00:03:13.597","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:03:16.694","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
-{"timestamp":"00:03:20.863","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:03:26.719","source":"Server","level":"LOG","message":"✓ Compiled in 26ms"}
-{"timestamp":"00:03:29.214","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
-{"timestamp":"00:03:33.863","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
-{"timestamp":"00:03:37.220","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:03:39.441","source":"Server","level":"LOG","message":"✓ Compiled in 332ms"}
-{"timestamp":"00:03:45.926","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
-{"timestamp":"00:03:49.875","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
-{"timestamp":"00:03:55.825","source":"Server","level":"LOG","message":"✓ Compiled in 48ms"}
+{"timestamp":"00:00:03.562","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:12.444","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:01:12.447","source":"Server","level":"LOG","message":"✓ Compiled in 144ms"}
+{"timestamp":"00:01:14.356","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
+{"timestamp":"00:01:15.415","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:01:16.702","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:01:18.238","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
+{"timestamp":"00:01:20.627","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
+{"timestamp":"00:01:22.387","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:01:25.235","source":"Browser","level":"ERROR","message":"./app/page.tsx:52:198\nError: Unexpected token. Did you mean `{'>'}` or `&gt;`?\n  50 | ...O</span><h1>Molecular Studio</h1><p>See geometry as a relationship between atoms and bonds.</p></div></div><div cla...\n  51 | ...arning Center</h1><p>Short modules that make the invisible feel tangible.</p></div></div><div className=\"learning-g...\n> 52 | ...</h1><p className=\"creator-credit\">Website developed by R>.AN</p><p className=\"lead\">Chemora is an educational play...\n     |                                                             ^\n  53 | ...\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component]\n\n  Client Component SSR:\n    ./app/page.tsx [Client Component SSR]\n    ./app/page.tsx [Server Component] "}
+{"timestamp":"00:01:25.239","source":"Server","level":"ERROR","message":"[browser] \"./app/page.tsx:52:198\\nError: Unexpected token. Did you mean `{'>'}` or `&gt;`?\\n  50 | ...O</span><h1>Molecular Studio</h1><p>See geometry as a relationship between atoms and bonds.</p></div></div><div cla...\\n  51 | ...arning Center</h1><p>Short modules that make the invisible feel tangible.</p></div></div><div className=\\\"learning-g...\\n> 52 | ...</h1><p className=\\\"creator-credit\\\">Website developed by R>.AN</p><p className=\\\"lead\\\">Chemora is an educational play...\\n     |                                                             ^\\n  53 | ...\\n\\nParsing ecmascript source code failed\\n\\nImport traces:\\n  Client Component Browser:\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\\n\\n  Client Component SSR:\\n    ./app/page.tsx [Client Component SSR]\\n    ./app/page.tsx [Server Component]\" \"\""}
+{"timestamp":"00:01:33.877","source":"Server","level":"LOG","message":"✓ Compiled in 154ms"}
