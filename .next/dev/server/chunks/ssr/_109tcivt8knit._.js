@@ -13,7 +13,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const metadata = {
-    title: 'Chemora — Interactive Chemistry Explorer',
+    title: 'chemlab — Interactive Chemistry Explorer',
     description: 'Explore compounds, reactions, calculators and molecular models.'
 };
 function RootLayout({ children }) {
