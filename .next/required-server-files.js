@@ -105,7 +105,7 @@ self.__SERVER_FILES_MANIFEST={
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/harishyadhev/Documents/gunaseelan",
+    "outputFileTracingRoot": "/Users/harishyadhev/Documents/sai/ChemLab",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -334,13 +334,13 @@ self.__SERVER_FILES_MANIFEST={
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
-    "repoRoot": "/Users/harishyadhev/Documents/gunaseelan",
+    "repoRoot": "/Users/harishyadhev/Documents/sai/ChemLab",
     "turbopack": {
-      "root": "/Users/harishyadhev/Documents/gunaseelan"
+      "root": "/Users/harishyadhev/Documents/sai/ChemLab"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/harishyadhev/Documents/gunaseelan",
+  "appDir": "/Users/harishyadhev/Documents/sai/ChemLab",
   "relativeAppDir": "",
   "files": [
     ".next/package.json",
