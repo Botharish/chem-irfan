@@ -1,12 +1,7 @@
-{"timestamp":"00:00:03.562","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:12.444","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:01:12.447","source":"Server","level":"LOG","message":"✓ Compiled in 144ms"}
-{"timestamp":"00:01:14.356","source":"Server","level":"LOG","message":"✓ Compiled in 49ms"}
-{"timestamp":"00:01:15.415","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:01:16.702","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
-{"timestamp":"00:01:18.238","source":"Server","level":"LOG","message":"✓ Compiled in 20ms"}
-{"timestamp":"00:01:20.627","source":"Server","level":"LOG","message":"✓ Compiled in 56ms"}
-{"timestamp":"00:01:22.387","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
-{"timestamp":"00:01:25.235","source":"Browser","level":"ERROR","message":"./app/page.tsx:52:198\nError: Unexpected token. Did you mean `{'>'}` or `&gt;`?\n  50 | ...O</span><h1>Molecular Studio</h1><p>See geometry as a relationship between atoms and bonds.</p></div></div><div cla...\n  51 | ...arning Center</h1><p>Short modules that make the invisible feel tangible.</p></div></div><div className=\"learning-g...\n> 52 | ...</h1><p className=\"creator-credit\">Website developed by R>.AN</p><p className=\"lead\">chemlab is an educational play...\n     |                                                             ^\n  53 | ...\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./app/page.tsx [Client Component Browser]\n    ./app/page.tsx [Server Component]\n\n  Client Component SSR:\n    ./app/page.tsx [Client Component SSR]\n    ./app/page.tsx [Server Component] "}
-{"timestamp":"00:01:25.239","source":"Server","level":"ERROR","message":"[browser] \"./app/page.tsx:52:198\\nError: Unexpected token. Did you mean `{'>'}` or `&gt;`?\\n  50 | ...O</span><h1>Molecular Studio</h1><p>See geometry as a relationship between atoms and bonds.</p></div></div><div cla...\\n  51 | ...arning Center</h1><p>Short modules that make the invisible feel tangible.</p></div></div><div className=\\\"learning-g...\\n> 52 | ...</h1><p className=\\\"creator-credit\\\">Website developed by R>.AN</p><p className=\\\"lead\\\">chemlab is an educational play...\\n     |                                                             ^\\n  53 | ...\\n\\nParsing ecmascript source code failed\\n\\nImport traces:\\n  Client Component Browser:\\n    ./app/page.tsx [Client Component Browser]\\n    ./app/page.tsx [Server Component]\\n\\n  Client Component SSR:\\n    ./app/page.tsx [Client Component SSR]\\n    ./app/page.tsx [Server Component]\" \"\""}
-{"timestamp":"00:01:33.877","source":"Server","level":"LOG","message":"✓ Compiled in 154ms"}
+{"timestamp":"00:00:01.206","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:13.718","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:52.597","source":"Server","level":"LOG","message":"✓ Compiled in 153ms"}
+{"timestamp":"00:00:57.291","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:01:00.283","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:01:03.361","source":"Server","level":"LOG","message":"✓ Compiled in 76ms"}
+{"timestamp":"00:01:05.809","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}

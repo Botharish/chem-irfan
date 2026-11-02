@@ -1477,13 +1477,13 @@ function Page() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                         children: [
-                                            "Chem",
+                                            "Chem ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "ora"
+                                                children: "Lab"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 174
+                                                columnNumber: 175
                                             }, this)
                                         ]
                                     }, void 0, true, {
@@ -1496,7 +1496,7 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 199
+                                        columnNumber: 200
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1512,12 +1512,12 @@ function Page() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 293
+                                    columnNumber: 294
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 236
+                                columnNumber: 237
                             }, this)
                         ]
                     }, void 0, true, {
@@ -1537,20 +1537,20 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 443
+                                        columnNumber: 444
                                     }, this),
                                     n.label
                                 ]
                             }, n.id, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 365
+                                columnNumber: 366
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 322
+                        columnNumber: 323
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "sidebar-foot",
@@ -1560,7 +1560,7 @@ function Page() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 517
+                                columnNumber: 518
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1568,13 +1568,13 @@ function Page() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 547
+                                columnNumber: 548
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 487
+                        columnNumber: 488
                     }, this)
                 ]
             }, void 0, true, {
@@ -1592,23 +1592,23 @@ function Page() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {}, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 670
+                                    columnNumber: 671
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 608
+                                columnNumber: 609
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "crumb",
                                 children: [
-                                    "chemlab ",
+                                    "Chem Lab ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                         size: 14
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 717
+                                        columnNumber: 719
                                     }, this),
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1616,13 +1616,13 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 743
+                                        columnNumber: 745
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 686
+                                columnNumber: 687
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "search",
@@ -1632,7 +1632,7 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 819
+                                        columnNumber: 821
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                         placeholder: "Search compounds, topics...",
@@ -1641,19 +1641,19 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 838
+                                        columnNumber: 840
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 795
+                                columnNumber: 797
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 600
+                        columnNumber: 601
                     }, this),
                     page === 'home' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(HomeView, {
                         go: go,
@@ -1661,7 +1661,7 @@ function Page() {
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 972
+                        columnNumber: 974
                     }, this),
                     " ",
                     page === 'compounds' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1678,27 +1678,27 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1098
+                                                columnNumber: 1100
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                 children: "Compound Explorer"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1153
+                                                columnNumber: 1155
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Search, filter and understand the molecules that shape our world."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1179
+                                                columnNumber: 1181
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1093
+                                        columnNumber: 1095
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "pill",
@@ -1706,13 +1706,13 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1257
+                                        columnNumber: 1259
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 1066
+                                columnNumber: 1068
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "filter-row",
@@ -1725,7 +1725,7 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1372
+                                                columnNumber: 1374
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 autoFocus: true,
@@ -1735,13 +1735,13 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1391
+                                                columnNumber: 1393
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1344
+                                        columnNumber: 1346
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "filter-pill",
@@ -1752,19 +1752,19 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1556
+                                                columnNumber: 1558
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1515
+                                        columnNumber: 1517
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 1316
+                                columnNumber: 1318
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "compound-grid",
@@ -1777,7 +1777,7 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1717
+                                                columnNumber: 1719
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "card-copy",
@@ -1791,27 +1791,27 @@ function Page() {
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
                                                                 lineNumber: 46,
-                                                                columnNumber: 1794
+                                                                columnNumber: 1796
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                 size: 17
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
                                                                 lineNumber: 46,
-                                                                columnNumber: 1831
+                                                                columnNumber: 1833
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1768
+                                                        columnNumber: 1770
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: c.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1860
+                                                        columnNumber: 1862
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "formula",
@@ -1827,43 +1827,43 @@ function Page() {
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/page.tsx",
                                                                 lineNumber: 46,
-                                                                columnNumber: 1914
+                                                                columnNumber: 1916
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1877
+                                                        columnNumber: 1879
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: c.blurb
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1960
+                                                        columnNumber: 1962
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1741
+                                                columnNumber: 1743
                                             }, this)
                                         ]
                                     }, c.name, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1641
+                                        columnNumber: 1643
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 1593
+                                columnNumber: 1595
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 1040
+                        columnNumber: 1042
                     }, this),
                     page === 'calculator' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CalculatorView, {
                         mass: mass,
@@ -1875,7 +1875,7 @@ function Page() {
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2032
+                        columnNumber: 2034
                     }, this),
                     " ",
                     page === 'reaction' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ReactionView, {
@@ -1886,7 +1886,7 @@ function Page() {
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2161
+                        columnNumber: 2163
                     }, this),
                     " ",
                     page === 'periodic' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1902,32 +1902,32 @@ function Page() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 2336
+                                            columnNumber: 2338
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             children: "Periodic Table"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 2381
+                                            columnNumber: 2383
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "118 elements, organized by recurring chemical properties."
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 2404
+                                            columnNumber: 2406
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 2331
+                                    columnNumber: 2333
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 2304
+                                columnNumber: 2306
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "legend",
@@ -1939,14 +1939,14 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2510
+                                                columnNumber: 2512
                                             }, this),
                                             "Nonmetal"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2504
+                                        columnNumber: 2506
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
@@ -1955,14 +1955,14 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2567
+                                                columnNumber: 2569
                                             }, this),
                                             "Metal"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2561
+                                        columnNumber: 2563
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
@@ -1971,20 +1971,20 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2618
+                                                columnNumber: 2620
                                             }, this),
                                             "Noble gas"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2612
+                                        columnNumber: 2614
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 2480
+                                columnNumber: 2482
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "periodic",
@@ -1997,74 +1997,74 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2840
+                                                columnNumber: 2842
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: e
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2860
+                                                columnNumber: 2862
                                             }, this)
                                         ]
                                     }, e, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2720
+                                        columnNumber: 2722
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 2673
+                                columnNumber: 2675
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2278
+                        columnNumber: 2280
                     }, this),
                     page === 'studio' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$MolecularStudio$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2926
+                        columnNumber: 2928
                     }, this),
                     page === 'learn' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LearnView, {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2962
+                        columnNumber: 2964
                     }, this),
                     page === 'about' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AboutView, {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2992
+                        columnNumber: 2994
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                children: "© 2026 chemlab"
+                                children: "© 2026 Chem Lab"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 3013
+                                columnNumber: 3015
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "Developed by Botharish Cyber · Educational use only"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 3040
+                                columnNumber: 3043
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 3005
+                        columnNumber: 3007
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 46,
-                columnNumber: 594
+                columnNumber: 595
             }, this),
             selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "modal-backdrop",
@@ -2079,19 +2079,19 @@ function Page() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {}, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 3315
+                                columnNumber: 3318
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3251
+                            columnNumber: 3254
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Molecule, {
                             compound: selected
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3328
+                            columnNumber: 3331
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "tag",
@@ -2099,14 +2099,14 @@ function Page() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3359
+                            columnNumber: 3362
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             children: selected.name
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3403
+                            columnNumber: 3406
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "modal-formula",
@@ -2114,14 +2114,14 @@ function Page() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3427
+                            columnNumber: 3430
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: selected.blurb
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3482
+                            columnNumber: 3485
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "specs",
@@ -2133,7 +2133,7 @@ function Page() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3533
+                                            columnNumber: 3536
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                             children: [
@@ -2143,13 +2143,13 @@ function Page() {
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3558
+                                            columnNumber: 3561
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 3528
+                                    columnNumber: 3531
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
@@ -2158,26 +2158,26 @@ function Page() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3608
+                                            columnNumber: 3611
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                             children: selected.atoms.join(' — ')
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3632
+                                            columnNumber: 3635
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 3603
+                                    columnNumber: 3606
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3505
+                            columnNumber: 3508
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "note",
@@ -2185,18 +2185,18 @@ function Page() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3679
+                            columnNumber: 3682
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
                     lineNumber: 46,
-                    columnNumber: 3195
+                    columnNumber: 3198
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 46,
-                columnNumber: 3131
+                columnNumber: 3134
             }, this)
         ]
     }, void 0, true, {
@@ -3571,7 +3571,7 @@ function AboutView() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "creator-credit",
-                children: "Website developed by R.Sai Harish ."
+                children: "Website developed by S.Aristo Kishore ."
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,
@@ -3579,11 +3579,11 @@ function AboutView() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "lead",
-                children: "chemlab is an educational playground for exploring the structure and behavior of matter. It combines local reference data with transparent, browser-side calculations so the reasoning stays visible."
+                children: "Chem Lab is an educational playground for exploring the structure and behavior of matter. It combines local reference data with transparent, browser-side calculations so the reasoning stays visible."
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,
-                columnNumber: 215
+                columnNumber: 219
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "about-grid",
@@ -3595,20 +3595,20 @@ function AboutView() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 469
+                                columnNumber: 474
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Compound reference cards, equation balancing for supported syntax, common chemistry calculators, an interactive periodic table and molecular geometry explainers."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 491
+                                columnNumber: 496
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 52,
-                        columnNumber: 464
+                        columnNumber: 469
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -3617,20 +3617,20 @@ function AboutView() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 670
+                                columnNumber: 675
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Next.js, TypeScript, React and accessible interface patterns. Sample data lives locally and is intentionally labeled for educational use."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 694
+                                columnNumber: 699
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 52,
-                        columnNumber: 665
+                        columnNumber: 670
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -3639,26 +3639,26 @@ function AboutView() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 849
+                                columnNumber: 854
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "This application is for learning only. It is not a substitute for laboratory safety procedures, professional chemical analysis or expert supervision."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 874
+                                columnNumber: 879
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 52,
-                        columnNumber: 844
+                        columnNumber: 849
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,
-                columnNumber: 436
+                columnNumber: 441
             }, this)
         ]
     }, void 0, true, {
